@@ -83,6 +83,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  justify-content: flex-end;
 }
 
 .nav a {
@@ -618,6 +619,25 @@ body {
 
   .topbar {
     padding: 14px;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .brand {
+    width: 100%;
+  }
+
+  .nav {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .nav a {
+    flex: 1 1 calc(50% - 10px);
+    justify-content: center;
+    text-align: center;
   }
 
   .hero {
