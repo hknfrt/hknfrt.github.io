@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <main class="wrap shell">
+  <main class="wrap shell shell-home">
     <header class="topbar">
       <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span>WaterFlow</a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation menu">
@@ -28,182 +28,234 @@
       </nav>
     </header>
 
-    <section class="hero">
-      <div class="hero-copy">
-        <span class="eyebrow">Hydration, Simplified</span>
-        <h1>Track your daily water intake without turning it into work.</h1>
+    <section class="hero hero-home">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Calm Hydration Tracking</span>
+          <h1>Build a better hydration routine across phone, widget, and watch.</h1>
+          <p class="hero-lead">
+            WaterFlow is for people who want faster logging, cleaner reminders, and progress they can read at a glance.
+            The core experience stays local-first, account-free, and focused on routine instead of noise.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="https://play.google.com/store/apps/details?id=com.hknfrt.waterflow">Get it on Google Play</a>
+            <a class="btn secondary" href="https://apps.apple.com/us/app/waterflow-hydration-tracker/id6747625932">Download on the App Store</a>
+          </div>
+          <div class="hero-meta" aria-label="Feature Summary">
+            <div class="hero-chip">Fast one-tap logging</div>
+            <div class="hero-chip">Adaptive reminders</div>
+            <div class="hero-chip">Widget + watch access</div>
+            <div class="hero-chip">No account required</div>
+          </div>
+          <div class="trust-row">
+            <div class="trust-item">
+              <strong>Local-first</strong>
+              <span>Core hydration data stays on your device.</span>
+            </div>
+            <div class="trust-item">
+              <strong>Premium unlocks</strong>
+              <span>Widget, watch, analytics, achievements, and device transfer.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-stage" aria-label="WaterFlow product preview">
+          <div class="glow glow-one" aria-hidden="true"></div>
+          <div class="glow glow-two" aria-hidden="true"></div>
+
+          <article class="device-card device-card-main">
+            <div class="device-card-header">
+              <span class="mini-label">Phone</span>
+              <strong>Track intake without opening five menus</strong>
+            </div>
+            <div class="device-frame">
+              <img src="assets/screenshots/3.png" alt="WaterFlow home screen showing daily hydration progress and quick add controls." />
+            </div>
+          </article>
+
+          <article class="device-note device-note-top">
+            <span class="mini-label">Statistics</span>
+            <strong>See real patterns instead of raw logs</strong>
+            <p>Yearly views, averages, streaks, and momentum in a cleaner format.</p>
+          </article>
+
+          <article class="device-note device-note-bottom">
+            <span class="mini-label">Wear + Widget</span>
+            <strong>Quick actions on the surfaces you already use</strong>
+            <p>Log from your wrist or home screen when the app itself should stay in the background.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="stats-band" aria-label="Product Highlights">
+        <article class="stat-pill">
+          <strong>1 tap</strong>
+          <span>to log water from the main screen</span>
+        </article>
+        <article class="stat-pill">
+          <strong>Widget + Watch</strong>
+          <span>for faster check-ins</span>
+        </article>
+        <article class="stat-pill">
+          <strong>Privacy-first</strong>
+          <span>without forcing an account system</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-story" id="features">
+      <div class="section-heading">
+        <span class="section-kicker">Why it feels better</span>
+        <h2>A hydration app that respects attention.</h2>
         <p>
-          WaterFlow is an Android hydration app built for fast logging, personalized goals, and reminders that respect your routine.
-          It supports custom cup sizes, home screen widgets, Wear OS features, and privacy-first data handling without requiring an account.
+          The value is in the full loop: quick logging, useful reminders, visible progress, and access from the right surface at the right time.
         </p>
-        <div class="hero-actions">
-          <a class="btn primary" href="https://play.google.com/store/apps/details?id=com.hknfrt.waterflow">Get it on Google Play</a>
-          <a class="btn secondary" href="privacy.html">Read Privacy Policy</a>
-        </div>
-
-        <div class="hero-strip" aria-label="Feature Summary">
-          <div class="hero-chip">Personalized goal</div>
-          <div class="hero-chip">Smart reminders</div>
-          <div class="hero-chip">Wear OS + Widget</div>
-          <div class="hero-chip">Local-first data</div>
-        </div>
       </div>
 
-      <div class="hero-visual" aria-label="WaterFlow App Preview">
-        <div class="orb orb-one" aria-hidden="true"></div>
-        <div class="orb orb-two" aria-hidden="true"></div>
-        <div class="shot-frame shot-hero">
-          <img src="assets/screenshots/3.png" alt="WaterFlow home screen showing daily water tracking and quick-add controls." />
-        </div>
-
-        <div class="hero-notes">
-          <div class="floating-card">
-            <span class="mini-label">Home</span>
-            <strong>Daily tracking with one-tap add</strong>
-          </div>
-          <div class="floating-card">
-            <span class="mini-label">Wear OS</span>
-            <strong>Quick hydration updates on your wrist</strong>
-          </div>
-        </div>
+      <div class="story-grid">
+        <article class="story-card">
+          <span class="story-index">01</span>
+          <h3>Log fast, stay moving</h3>
+          <p>Custom cup sizes and a home screen built around the action users repeat every day.</p>
+        </article>
+        <article class="story-card">
+          <span class="story-index">02</span>
+          <h3>Keep reminders useful</h3>
+          <p>Quiet hours, stop-on-goal behavior, and rhythm-aware notifications reduce reminder fatigue.</p>
+        </article>
+        <article class="story-card">
+          <span class="story-index">03</span>
+          <h3>Read progress clearly</h3>
+          <p>Statistics and achievements make hydration feel like a visible routine instead of a buried history list.</p>
+        </article>
       </div>
     </section>
 
-    <section class="section section-tight">
-      <div class="kpi-row" aria-label="Product Highlights">
-        <div class="kpi"><strong>1 Tap</strong><span>Quick water logging from phone, widget, or watch</span></div>
-        <div class="kpi"><strong>Wear OS</strong><span>Tile, complications, and mirrored reminders</span></div>
-        <div class="kpi"><strong>Local-First</strong><span>No account required for core tracking</span></div>
+    <section class="section section-showcase" id="showcase">
+      <div class="section-heading">
+        <span class="section-kicker">Product Surfaces</span>
+        <h2>Premium utility, not decorative features.</h2>
+        <p>
+          WaterFlow becomes more useful as it spreads across the surfaces people already use during the day.
+        </p>
       </div>
-    </section>
 
-    <section class="section" id="features">
-      <h2>What WaterFlow actually helps you do</h2>
-      <div class="feature-grid">
-        <article class="card">
-          <h3>Set a Goal That Fits You</h3>
-          <p>WaterFlow calculates a recommended daily goal from your profile and lets you adjust it anytime.</p>
-        </article>
-        <article class="card">
-          <h3>Log Water Fast</h3>
-          <p>Use custom cup sizes, one-tap add actions, and a focused home screen to keep the habit friction-free.</p>
-        </article>
-        <article class="card">
-          <h3>Stay in Rhythm</h3>
-          <p>Reminder timing, sleep schedule, silent hours, and stop-on-goal controls help notifications feel useful instead of noisy.</p>
-        </article>
-      </div>
-      <div class="highlight">
-        <strong>Positioning:</strong> WaterFlow is a practical hydration tracker for Android, not a social challenge app and not a cloud dashboard.
-      </div>
-    </section>
-
-    <section class="section" id="extras">
-      <h2>Built around the features users notice every day</h2>
-      <div class="viral-grid">
-        <article class="card">
-          <h3>Widget and Lock-In Convenience</h3>
-          <p>Premium users can track hydration from a real-time home screen widget without opening the app.</p>
-        </article>
-        <article class="card">
-          <h3>Wear OS on Your Wrist</h3>
-          <p>Premium unlocks watch quick-add, progress tiles, complications, and mirrored reminders for supported Wear OS devices.</p>
-        </article>
-        <article class="card">
-          <h3>Progress You Can See</h3>
-          <p>Statistics, streak-oriented achievements, and long-term trends make consistency easier to understand and maintain.</p>
-        </article>
-      </div>
-      <div class="highlight">
-        <strong>Privacy-first continuity:</strong> WaterFlow keeps core usage local and offers trusted device transfer tools instead of account-based cloud sync.
-      </div>
-    </section>
-
-    <section class="section" id="showcase">
-      <h2>Real product surfaces, not just promises</h2>
-      <div class="showcase-grid">
-        <article class="showcase-card showcase-card-wide">
+      <div class="showcase-grid showcase-grid-premium">
+        <article class="showcase-panel showcase-panel-wide">
           <div class="showcase-copy">
-            <span class="mini-label">Widget</span>
-            <h3>See progress and add water without opening the app</h3>
-            <p>The home screen widget keeps hydration visible and actionable throughout the day with quick-add buttons and live progress.</p>
+            <span class="mini-label">Home Screen</span>
+            <h3>The main screen is built for repeat use</h3>
+            <p>
+              Daily progress, cup choices, and reminders stay visually calm while keeping the main action immediate.
+            </p>
           </div>
-          <div class="showcase-media showcase-media-dark">
-            <img src="assets/screenshots/6.png" alt="WaterFlow Android home screen widget showing current progress and quick add buttons." />
+          <div class="showcase-stack">
+            <div class="media-card media-card-tall">
+              <img class="media-fit media-fit-top" src="assets/screenshots/3.png" alt="WaterFlow Android home screen with progress bottle, cup size options, and recent entries." />
+            </div>
+            <div class="media-card media-card-detail">
+              <img class="media-fit media-fit-mid" src="assets/screenshots/3.png" alt="WaterFlow home screen detail showing progress and quick add action." />
+            </div>
           </div>
         </article>
 
-        <article class="showcase-card">
+        <article class="showcase-panel">
           <div class="showcase-copy">
             <span class="mini-label">Statistics</span>
-            <h3>Monthly and yearly views that make patterns obvious</h3>
-            <p>Average intake, best day, streaks, goal hits, and chart views help users understand consistency over time.</p>
+            <h3>Long-term consistency becomes visible</h3>
+            <p>Monthly and yearly views make streaks, off days, and realistic averages easier to spot.</p>
           </div>
-          <div class="showcase-media">
-            <img src="assets/screenshots/1.png" alt="WaterFlow statistics screen with yearly hydration chart and summary cards." />
+          <div class="media-card media-card-stat">
+            <img class="media-fit media-fit-stat" src="assets/screenshots/1.png" alt="WaterFlow statistics screen with yearly hydration chart and summary cards." />
           </div>
         </article>
 
-        <article class="showcase-card">
+        <article class="showcase-panel">
           <div class="showcase-copy">
             <span class="mini-label">Achievements</span>
-            <h3>Habit motivation built into the product</h3>
-            <p>Achievements turn daily hydration into a streak-driven system with visible progress across consistency and volume milestones.</p>
+            <h3>Motivation stays inside the product</h3>
+            <p>Achievement tracking adds momentum without turning hydration into a noisy social layer.</p>
           </div>
-          <div class="showcase-media">
-            <img src="assets/screenshots/5.png" alt="WaterFlow achievements screen with unlocked progress and milestone cards." />
+          <div class="media-card media-card-stat">
+            <img class="media-fit media-fit-achievement" src="assets/screenshots/5.png" alt="WaterFlow achievements screen with unlocked milestones and progress badges." />
           </div>
         </article>
 
-        <article class="showcase-card">
+        <article class="showcase-panel">
           <div class="showcase-copy">
-            <span class="mini-label">Wear OS</span>
-            <h3>Compact watch views for fast check-ins</h3>
-            <p>Wear OS support brings progress, reminders, and quick hydration actions to a glanceable watch interface.</p>
+            <span class="mini-label">Widget</span>
+            <h3>Progress that stays visible from the home screen</h3>
+            <p>The widget makes hydration glanceable without forcing another full app open.</p>
           </div>
-          <div class="showcase-media showcase-media-watch">
-            <img src="assets/screenshots/Screenshot_20260320_005014.png" alt="WaterFlow Wear OS screen showing hydration percentage, reminder time, and quick add action." />
+          <div class="media-card media-card-widget">
+            <img class="media-fit media-fit-widget" src="assets/screenshots/6.png" alt="WaterFlow widget showing current progress and quick-add actions." />
+          </div>
+        </article>
+
+        <article class="showcase-panel">
+          <div class="showcase-copy">
+            <span class="mini-label">Watch</span>
+            <h3>Quick hydration check-ins on your wrist</h3>
+            <p>Wear OS support extends the habit loop with quick-add actions and mirrored reminders.</p>
+          </div>
+          <div class="watch-stage">
+            <div class="watch-shell">
+              <img src="assets/screenshots/Screenshot_20260320_005014.png" alt="WaterFlow Wear OS screen showing hydration percentage, reminder time, and quick add action." />
+            </div>
           </div>
         </article>
       </div>
     </section>
 
-    <section class="section">
-      <h2>Designed to feel calm, fast, and clear</h2>
-      <div class="feature-grid">
-        <article class="card feature-callout">
-          <span class="mini-label">Focus</span>
-          <h3>Less friction, more consistency</h3>
-          <p>The product experience centers on fast actions, clear progress, and reminder controls that stay out of your way.</p>
+    <section class="section section-split" id="extras">
+      <div class="section-heading">
+        <span class="section-kicker">What Premium Unlocks</span>
+        <h2>Usefulness first, access second.</h2>
+        <p>
+          Premium is centered on daily convenience: better surfaces, clearer visibility, and trusted transfer between devices.
+        </p>
+      </div>
+
+      <div class="split-grid">
+        <article class="value-card">
+          <h3>Phone, widget, and watch</h3>
+          <p>Premium expands the hydration loop to the surfaces people naturally return to.</p>
         </article>
-        <article class="card feature-callout">
-          <span class="mini-label">Continuity</span>
-          <h3>Across phone, widget, and watch</h3>
-          <p>WaterFlow keeps the core hydration loop accessible from the surfaces people actually use throughout the day.</p>
+        <article class="value-card">
+          <h3>Statistics and achievements</h3>
+          <p>Progress stays motivating because it becomes legible over time.</p>
         </article>
-        <article class="card feature-callout">
-          <span class="mini-label">Trust</span>
-          <h3>Local-first by product decision</h3>
-          <p>The app emphasizes device-based history and trusted transfer flows instead of forcing users into an account system.</p>
+        <article class="value-card">
+          <h3>Trusted device transfer</h3>
+          <p>Continuity comes from controlled transfer tools instead of an account-based sync system.</p>
         </article>
       </div>
     </section>
 
-    <section class="section" id="download">
-      <h2>Download WaterFlow</h2>
-      <p>WaterFlow is available on Google Play for Android devices and the App Store for iOS.</p>
-      <div class="badge-row">
-      <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.hknfrt.waterflow" aria-label="Get it on Google Play">
-        <span class="store-top">Get it on</span>
-        <span class="store-main">Google Play</span>
-      </a>
-      <a class="store-badge" href="https://apps.apple.com/us/app/waterflow-hydration-tracker/id6747625932" aria-label="Download on the App Store">
-        <span class="store-top">Download on the</span>
-        <span class="store-main">App Store</span>
-      </a>
-      </div>
-      <div class="contact">
-        <p>Support: <a href="mailto:waterflowhelp@proton.me">waterflowhelp@proton.me</a></p>
+    <section class="section section-download" id="download">
+      <div class="download-card">
+        <div class="download-copy">
+          <span class="section-kicker">Download WaterFlow</span>
+          <h2>Available on Google Play and the App Store.</h2>
+          <p>
+            The same calm product direction across Android and iPhone, with premium surfaces extending to widget and watch experiences.
+          </p>
+        </div>
+        <div class="badge-row">
+          <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.hknfrt.waterflow" aria-label="Get it on Google Play">
+            <span class="store-top">Get it on</span>
+            <span class="store-main">Google Play</span>
+          </a>
+          <a class="store-badge" href="https://apps.apple.com/us/app/waterflow-hydration-tracker/id6747625932" aria-label="Download on the App Store">
+            <span class="store-top">Download on the</span>
+            <span class="store-main">App Store</span>
+          </a>
+        </div>
+        <div class="contact">
+          <p>Support: <a href="mailto:waterflowhelp@proton.me">waterflowhelp@proton.me</a></p>
+        </div>
       </div>
     </section>
 
